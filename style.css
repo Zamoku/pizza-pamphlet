@@ -1,5 +1,97 @@
-.small img { width: 4em; }
+body{
+    background-color: #9b6193;
+    font-family:fantasy;
+    margin-left: 20px
+}
+.footer{
+    background-color: darksalmon;
+    margin-top: 30px;
+}
+.small img { 
+    width: 4em; 
+    margin-top: 20px;
+    /* float: left;  */
+}
 
-.medium img { width: 5em; }
+.medium img { 
+    width: 5em; 
+    margin-top: 20px;
+    /* float: left;  */
+}
 
-.large img { width: 7em; }
+.large img { 
+    width: 7em; 
+    background-color: #fe7f2d;
+    margin-top: 20px;
+    /* float: left;  */
+}
+ .large{
+    background-color: #fe7f2d;
+    height: 400px;
+    width: 400px;
+    border: 2px solid  #fe7f2d ;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+
+}
+.medium{
+    background-color: #FCCA46;
+    height: 400px;
+    width: 400px;
+    border: 2px solid  #FCCA46;
+    border-radius: 10px;
+    
+
+}
+.small{
+    background-color: #F0BCD4;
+    height: 400px;
+    width: 400px;
+    border: 2px solid  #F0BCD4 ;
+    border-radius: 10px;
+    margin-left: 20px;
+} 
+.specials{
+    display: flex; 
+    margin-top: 30px;
+    /* display: inline-flex; */
+}
+.info{
+    margin-left: 10px;
+}
+.orderBox{
+    margin-left: 10px;
+
+}
+.btn{
+    border: 2px solid  #F0BCD4 ;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 30px;
+}
+.btn:hover{
+    color: gray;
+}
+.cartTable td, .cartTable th{
+    padding: 20px;
+    border: 1px solid black ;
+    
+}
+.cartTable{
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+
+}
+.cartTotal{
+    font-size: 17px;
+}
+
+tr:hover{
+    color: gray;
+}
+.cart, .btn{
+    margin-top: 20px;
+    margin-left: 10px;
+}
